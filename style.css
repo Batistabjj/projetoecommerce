@@ -52,9 +52,9 @@ header {
     margin-right: 5px;
 }
 
-.navegaçao  {
+ul  {
     
-    display: flex;
+    display: flex!important;
     flex-direction: row;
     justify-content: space-around;
     width: 600px;
@@ -63,13 +63,18 @@ header {
 
 .navegaçao  a {
   
-    color: white;
+    
     font-size: var(--p-font);
     font-weight: 500;
     margin: 0  110px;
     transition: a .55s ease;
+     
     
 }
+
+a {
+    color:white;
+ }
 
 .navegaçao a:hover{
     color: var(--main-color);
