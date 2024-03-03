@@ -52,17 +52,23 @@ header {
     margin-right: 5px;
 }
 
-.navegaçao{
+.navegaçao  {
+    
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+
 }
 
-.navegaçao  a{
-
-    color: var(--other-color);
+.navegaçao  a {
+  
+    color: white;
     font-size: var(--p-font);
     font-weight: 500;
-    margin: 0  10px;
+    margin: 0  110px;
     transition: a .55s ease;
+    
 }
 
 .navegaçao a:hover{
