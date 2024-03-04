@@ -44,12 +44,14 @@ header {
     color: var(--tex-color);
     font-size: 28px;
     font-weight: bold;
+    
 }
 
 .logo i{
     color: var(--main-color);
     font-size: 32px;
     margin-right: 5px;
+    
 }
 
 ul  {
@@ -58,16 +60,17 @@ ul  {
     flex-direction: row;
     justify-content: space-around;
     width: 600px;
+    
 
 }
 
 .navegaçao  a {
   
-    
-    font-size: var(--p-font);
-    font-weight: 500;
+    text-align: right;
+    font-size:  var(--p-font);
+    font-weight: 50;
     margin: 0  110px;
-    transition: a .55s ease;
+    transition: 0.55s;
      
     
 }
@@ -115,9 +118,14 @@ a {
     height: 100vh;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2 ,1fr);
+    grid-template-columns: repeat(2 ,1fr);   
     align-items: center;
     gap: 2rem;
+    transition: all.5s ease;
+}
+.home-img :hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
 }
 
 .home-text h1{
@@ -143,7 +151,7 @@ a {
 
 .home-img img{
     max-width: 90%;
-    width: 22rem;
+    width: 22rem;        
     height: auto;
     margin-left: 35%;
 }
@@ -153,7 +161,7 @@ a {
     display: inline-block;
     padding: 15px 70px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 50;
     background: transparent;
     border: solid 2px var(--tex-color);
     transition: all.55 ease;
